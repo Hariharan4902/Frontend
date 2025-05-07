@@ -1,8 +1,9 @@
- /* const DOB = "14/10/2001";
-const AGE = calAge(DOB);
-
+//const
+const DOB = "14/10/2001";
+const AGE = 5;
 console.log(AGE); 
 
+//Num
 let pi = 3.14;
 let prime =7;
 
@@ -30,7 +31,7 @@ console.log(limit + 2n);
 console.log(limit + 3n);
 
 console.log(typeof limit);
- */
+ 
 //String
 
 let para = `This is bat man's house. Hari said " I'm bat man"`;
