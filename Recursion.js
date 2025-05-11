@@ -23,3 +23,23 @@ console.log(JSON.parse(user1));
         co
     }
 } */
+
+//inheritance
+
+class Ani{
+    legs;
+    tail;
+    constructor(legs,tail){
+        this.legs=legs;
+        this.tail=tail;
+    
+    }  display(){
+        console.log(this.legs);
+        console.log(this.tail);
+    class Human extends Ani{
+        nationality;
+    }
+    let goms=new Human(4,false)
+    console.log(goms);
+    }
+}
